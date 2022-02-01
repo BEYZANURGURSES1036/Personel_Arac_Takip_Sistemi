@@ -1,6 +1,6 @@
 # Personel-Araç-Takip-Sistemi
 Devlet Su İşleri Genel Müdürlüğü Teknoloji Daire Başkanlığındaki Staj Projem
-![]   (https://www.google.com/urlsa=i&url=https%3A%2F%2Fwww.facebook.com%2Ftr.dsi&psig=AOvVaw0gDK6mdhcdsXK_TZnq6_5p&ust=1643833749951000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDzuZes3_UCFQAAAAAdAAAAABAj)
+
 
 ## Projenin Amacı
 Şirkette çalışan personellerin araç talebinde bulunup bulunmadığını takip etmek için kullanılan bir web uygulamasıdır. 
