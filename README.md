@@ -1,12 +1,8 @@
 # Personel-Araç-Takip-Sistemi
 Devlet Su İşleri Genel Müdürlüğü Teknoloji Daire Başkanlığındaki Staj Projem
 
-
 ## Projenin Amacı
 Şirkette çalışan personellerin araç talebinde bulunup bulunmadığını takip etmek için kullanılan bir web uygulamasıdır. 
-
-## Proje  İçeriği
-Linux makinasının sistem ve donanım bilgilerini kullanıcıya sunan bir uygulama oluşturmaktır. Kullanıcı hangi bilgiyi istiyorsa onu seçip sonucunu görsel arayüzde görebilmektedir ve o komutun sonucunun ne olacağı hakkındada bilgilendirme yapmaktadır. 
 
 ## Projede Kullanılan Programlama Dili
  - C#
@@ -16,6 +12,20 @@ Linux makinasının sistem ve donanım bilgilerini kullanıcıya sunan bir uygul
  - MySQL
 
 ## Nasıl Çalışır ?
-Repository içine yüklenen commands dizininden .sh dosyaları indirilir ve bunlar aynı klasör içine yerleştirilip terminal üzerinden **bash giris.sh** komutu çalıştırılır.
-![](/Images/giris.png)
-Uygulamaya giriş ekranı gelmektedir, giriş ekranından sonra **bash shell.sh** komutu çalışmaya başlar. Uygulama komut satırından başlamış olur fakat  komutu çalıştırdıktan görsel arayüzden çalışmaya devam edecektir.
+Uygulamanın giriş ekranı mevcuttur bu ekrandan personeller, birim amirleri ve şoförler giriş yapabilir.(Kullanıcı adı ve şifre=1234 girip uygulamaya giriş yapılabilir.)
+![](/images/giris.png)
+Giren kişinin personel mi birim amir mi şofor mü oldukları veri tabanından kontrolu sağlanır. 
+  - Giren personel ise personel ekranı gelmektedir. Personel ekranından personelin adı-soyadı ve unvanı otomatik olarak ekrana gelir, diğer boşluklarda ise personel gitmek istediği yeri ve gideceği zamanı girerek araç talebinde bulunabilir. 
+![](/images/aractalebi.png)
+Araç talebinde bulunduktan sayfanın alt kısmına doğru ilerdiğinde araç talebinde bulunduğu yerler için birim amirinin onayından geçtiğini veya şoförün onayının beklenip beklenmediği konusunda bilgi edinebilmektedir.
+![](/images/talepsonuc.png)
+Bunları kontrol ettikten sonra sistemden çıkış yapabilir.
+   - Giren birim amir ise kendi himayesinde bulunan personellerinin araç isteğini uygun gördüğü zaman onay verebilir.
+![](/images/birimamir.png)
+Onay  verdikten sonra sayfa yenilenir ve onay vermedikleri sayfada yer alır.Daha sonra sistemden çıkış yapabilir.
+![](/images/birimamir1.png)
+   - Giren şoför ise personellerin araç taleplerine  birim amirin onay verdikleri sayfada yer alır. Şoför bunlara uygun araç yönlendirmek için araç seçme butonuna basmaktadır.
+![](/images/sofor.png)
+Araç seçme sayfasına gittiğinde şoför ve araç seçimi yapar. Seçilen aracın hangi kuruluşa ait olduğu veri tabanından otomatik olarak çekilmektedir. Onayla işlemini gerçekleştirdikten sonra diğer personellerin araç taleplerine bakmak için kendi sayfasına yönlendirilir. Yapacağı işlemleri tamamladıktan sonra çıkış yapabilir.
+![](/images/arac.png)
+
