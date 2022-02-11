@@ -2,10 +2,10 @@
 *Devlet Su İşleri Genel Müdürlüğü Teknoloji Daire Başkanlığındaki Staj Projem
 
 ## Projenin Amacı
-*Şirkette çalışan personellerin araç talebinde bulunup bulunmadığını takip etmek için kullanılan bir web uygulamasıdır. 
+*Şirkette çalışan personellerin araç talebinde bulunup bulunmadığını takip etmek için kullanılan bir web uygulamasıdır.* 
 
 ## Projede Kullanılan Programlama Dili
- *- C#
+ *- C#*
  *- ASP.NET
  
 ## Projede Kullanılan  Veri Tabanı Sistemi
