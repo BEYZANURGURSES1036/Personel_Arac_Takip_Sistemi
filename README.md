@@ -12,7 +12,11 @@
  *- MySQL*
 
 ## Proje Nasıl Kullanılır ?
-
+  *- **Database** kısmındaki .sql isimli dosya indirilir. **MySQL Workbench** adlı uygulama da import işlemi gerçekleştirilir.*
+  *- **ASP.NET** kısmındaki .aspx uzantılı dosyalar indirilir.*
+  *- **C#** kısmındaki .cs uzantılı dosyalar indirilir.*
+  *-**Application_Images** kısmındaki resimler indirilir.* 
+ *İndirilen ASP.NET ,C# ,Application_Images kısımları bir klasörde birleştirilir. **Microsoft Visual Studio** adlı uygulamada MySQL Workbench ile veri tabanı bağlantısı* *yapılır. Daha sonra uygulama kullanılabilir hale gelmektedir.*
 
 ## Nasıl Çalışır ?
 *Uygulamanın giriş ekranı mevcuttur bu ekrandan personeller, birim amirleri ve şoförler giriş yapabilir.(Kullanıcı adı ve şifre=1234 girip uygulamaya giriş yapılabilir.)*
@@ -20,7 +24,7 @@
 *Giren kişinin personel mi birim amir mi şofor mü oldukları veri tabanından kontrolu sağlanır.* 
  *- Giren personel ise personel ekranı gelmektedir. Personel ekranından personelin adı-soyadı ve unvanı otomatik olarak ekrana gelir, diğer boşluklarda ise personel gitmek* *istediği yeri ve gideceği zamanı girerek araç talebinde bulunabilir.* 
 *![](/images/aractalebi.png)*
-*Araç talebinde bulunduktan sayfanın alt kısmına doğru ilerdiğinde araç talebinde bulunduğu yerler için birim amirinin onayından geçtiğini veya şoförün onayının beklenip *beklenmediği konusunda bilgi edinebilmektedir.*
+*Araç talebinde bulunduktan sayfanın alt kısmına doğru ilerdiğinde araç talebinde bulunduğu yerler için birim amirinin onayından geçtiğini veya şoförün onayının beklenip* *beklenmediği konusunda bilgi edinebilmektedir.*
 *![](/images/talepsonuc.png)*
 *Bunları kontrol ettikten sonra sistemden çıkış yapabilir.*
    *- Giren birim amir ise kendi himayesinde bulunan personellerinin araç isteğini uygun gördüğü zaman onay verebilir.*
