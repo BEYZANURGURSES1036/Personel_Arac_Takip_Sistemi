@@ -57,13 +57,7 @@ namespace dsistajwebarac
                     //Dropdownliste ekliyoruz
                     DropDownList1.Items.Add(litem);
                 }
-                //ListItem ditem = new ListItem();
-                //ditem.Text = "Diğer";
-                //ditem.Value = "-1";
-
-                ////Dropdownliste ekliyoruz
-                //DropDownList1.Items.Add(ditem);
-
+                
                 reader1.Close();
 
                 string constr = ConfigurationManager.ConnectionStrings["dsistajConnectionString"].ConnectionString;
@@ -168,12 +162,6 @@ namespace dsistajwebarac
             reader.Close();
 
             MySqlCommand com1 = connection.CreateCommand();
-            //ListItem ditem = new ListItem();
-            //ditem.Text = "Seçiniz";
-            //ditem.Value = "-1";
-
-            ////Dropdownliste ekliyoruz
-            //DropDownList1.Items.Add(ditem);
             string adres = DropDownList1.SelectedValue;
             com1.CommandText = "Select yer_ID from gidilecek_yerler " +
                 "where adres='" + adres + "'";
@@ -232,19 +220,6 @@ namespace dsistajwebarac
             connection.Close();
         }
 
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void DropDownList1_SelectedIndexChanged()
-        {
-
-        }
-
-        protected void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }
